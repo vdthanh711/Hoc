@@ -5,3 +5,13 @@ const animals = ['Mèo', 'Vịt', 'Chim', 'Bò']
 
 animals[0]
 animals[1]
+
+// Thay đổi một phần tự của mảng
+animals[1] = 'Ngan'
+console.log(animals)
+// Thuộc tính chiều dài của mảng
+animals.length
+//vòng lặp phần tử của mảng
+for(let i=0; i<animals.length;i++){
+    console.log(animals[i])
+}
